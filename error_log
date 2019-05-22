@@ -1,0 +1,56 @@
+[09-May-2019 13:48:10 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/qff2r7vddxim/public_html/config.php on line 11
+[09-May-2019 14:08:24 UTC] PHP Notice:  Undefined index: username in /home/qff2r7vddxim/public_html/checkUser.php on line 6
+[09-May-2019 14:08:24 UTC] PHP Notice:  Undefined index: password in /home/qff2r7vddxim/public_html/checkUser.php on line 7
+[09-May-2019 14:13:08 UTC] PHP Notice:  Undefined index: username in /home/qff2r7vddxim/public_html/checkUser.php on line 6
+[09-May-2019 14:13:08 UTC] PHP Notice:  Undefined index: password in /home/qff2r7vddxim/public_html/checkUser.php on line 7
+[09-May-2019 18:04:42 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/qff2r7vddxim/public_html/sessiondestory.php on line 3
+[09-May-2019 18:09:40 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in /home/qff2r7vddxim/public_html/header.php on line 3
+[15-May-2019 17:37:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_assoc() in /home/qff2r7vddxim/public_html/checkUser.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/qff2r7vddxim/public_html/checkUser.php on line 24
+[15-May-2019 17:37:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_assoc() in /home/qff2r7vddxim/public_html/checkUser.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/qff2r7vddxim/public_html/checkUser.php on line 24
+[15-May-2019 17:37:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_assoc() in /home/qff2r7vddxim/public_html/checkUser.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/qff2r7vddxim/public_html/checkUser.php on line 24
+[15-May-2019 17:37:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_assoc() in /home/qff2r7vddxim/public_html/checkUser.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/qff2r7vddxim/public_html/checkUser.php on line 24
+[15-May-2019 17:37:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_assoc() in /home/qff2r7vddxim/public_html/checkUser.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/qff2r7vddxim/public_html/checkUser.php on line 24
+[15-May-2019 17:37:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_assoc() in /home/qff2r7vddxim/public_html/checkUser.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/qff2r7vddxim/public_html/checkUser.php on line 24
+[15-May-2019 17:37:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_assoc() in /home/qff2r7vddxim/public_html/checkUser.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/qff2r7vddxim/public_html/checkUser.php on line 24
+[15-May-2019 17:37:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_assoc() in /home/qff2r7vddxim/public_html/checkUser.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/qff2r7vddxim/public_html/checkUser.php on line 24
+[15-May-2019 17:37:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_assoc() in /home/qff2r7vddxim/public_html/checkUser.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/qff2r7vddxim/public_html/checkUser.php on line 24
+[15-May-2019 17:37:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_assoc() in /home/qff2r7vddxim/public_html/checkUser.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/qff2r7vddxim/public_html/checkUser.php on line 24
+[15-May-2019 17:37:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_assoc() in /home/qff2r7vddxim/public_html/checkUser.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/qff2r7vddxim/public_html/checkUser.php on line 24
+[15-May-2019 17:38:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_assoc() in /home/qff2r7vddxim/public_html/checkUser.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/qff2r7vddxim/public_html/checkUser.php on line 24
+[15-May-2019 17:38:38 UTC] PHP Notice:  Undefined index: emailid in /home/qff2r7vddxim/public_html/checkUser.php on line 27

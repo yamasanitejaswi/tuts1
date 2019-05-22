@@ -1,0 +1,104 @@
+* {margin: 0;
+ padding: 0; 
+ border: 0;
+ color: white ;
+}
+body {
+	background: #e4e4e4;
+}
+h1 {
+	margin: 0 auto;
+	font-size: 30px;
+	font-family: monospace;
+	color: rgb(255, 255, 255);
+	text-align: center;
+	background: black;
+	border-bottom: 1px solid rgb(255, 255, 255);
+}
+	h1:hover {
+		color: black;
+		background: rgb(255, 255, 255);
+	}
+i {
+	color: rgb(48, 46, 47);
+}
+p, i:hover {
+	color: rgb(255, 255, 255);
+}
+#smplVideoPlayer {
+	margin: auto;
+	background-color: black;
+	display: inline-block;
+	user-select: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	position: absolute;
+	top: 1%;
+	left: 20%;
+}
+	#videoContainer {
+		width: 720px;
+		height: 576px;
+	}
+		video {
+			width: 100%; /*width same as its parent*/
+			height: 100%; /*height same as its parent*/
+			/*margin-left: 400px;*/
+		}
+	#streamContainer {
+		margin-top: 1px;
+		margin-bottom: 4px;
+		background-color: rgb(48, 46, 47);
+		cursor: pointer;
+	}
+		#streamBar {
+			height: 10px;
+			width: 0%; /*width set to zero (of its parent)*/
+			background-color: rgb(255, 255, 255);
+		}
+	#controlsContainer {
+		height: 45px;
+		padding-bottom: 4px;
+	}		
+		#controlsContainer > * {
+			display: inline-block;
+			vertical-align: middle;
+		}
+		#playButton {
+			width: 40px;
+			margin: 0 0 0 5px;
+			float: left;
+			cursor: pointer;
+		}
+		#duration {
+			margin: 0 350px 0 20px;
+			color: rgb(255, 255, 255);
+			cursor: default;
+		}
+		#volumeButton {
+			cursor: pointer;
+		}
+		#volumeContainer {
+			margin: 0 10px 0 0;
+			height: 37px;
+			width: 100px;
+			background-color: rgb(48, 46, 47);
+			cursor: pointer;
+		}
+			#volumeBar {
+				height: 37px;
+				width: 50%;
+				background-color: rgb(255, 255, 255);
+			}
+		#fullscreenButton {
+			margin: 0 5px 0 0;
+			float: right;
+			cursor: pointer;
+		}
+		body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: red;
+    background-color: #fff;

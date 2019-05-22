@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>unik life - Dashboard</title>
+
+  <!-- Custom fonts for this template-->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+
+  <!-- Page level plugin CSS-->
+  <link href="vendor/datatables/dataTables.bootstrap4.css" rel="stylesheet">
+
+  <!-- Custom styles for this template-->
+  <link href="css/sb-admin.css" rel="stylesheet">
+  
+  <script src="https://code.jquery.com/jquery-3.4.1.js"  
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="    crossorigin="anonymous"></script>
+  
+
+  
+  <style>
+  form {
+	width: 600px;
+	margin: 0 auto;
+	margin-top: 08em;
+}
+
+button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+
+
+  </style>
+
+</head>
+
+<body id="page-top">
+
+  <nav class="navbar navbar-expand navbar-dark bg-dark static-top">
+
+    <a class="navbar-brand mr-1" href="home.html"></a>
+
+    <button class="btn btn-link btn-sm text-white order-1 order-sm-0" id="sidebarToggle" href="#">
+      <i class="fas fa-bars"></i>
+    </button>
+
+  
+    <!-- Navbar -->
+    <ul class="d-none d-md-inline-block form-inline ml-auto mr-0 mr-md-3 my-2 my-md-0">
+  
+    
+      <li class="nav-item dropdown no-arrow">
+        <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <i class="fas fa-user-circle fa-fw"></i>
+        </a>
+        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
+          <a class="dropdown-item" href="#">Settings</a>
+          <a class="dropdown-item" href="#">Activity Log</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">Logout</a>
+        </div>
+      </li>
+    </ul>
+
+  </nav>
+
+  <div id="wrapper">
+
+    <!-- Sidebar -->
+    <ul class="sidebar navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">
+          <i class="fas fa-home"></i>
+          <span>Home</span>
+        </a>
+      </li>
+         
+		  <li class="nav-item active">
+        <a class="nav-link" href="#">
+          <i class="fab fa-youtube"></i>
+          <span>VideoUpload</span>
+        </a>
+      </li>
+	  
+    </ul>
+
+      <div class="container">
+               				  
+					  <div class="row">  
+						<div class="col-sm-2">
+					<!-- 2 empty sections in the left -->
+						</div>
+						<div class="col-sm-8">
+					<!--Your form goes here -->
+					   <form id="imageupload1" enctype="multipart/form-data">
+				
+					   
+					   
+                            <div class="custom-file mb-3">
+                              <input type="file" class="custom-file-input" id="thumbnailupload" name="thumbnailupload" 
+							  data-min-width="800" data-min-height="600" data-max-width="8000" data-max-height="6000" >
+	
+                              <label class="custom-file-label" id="thumbnailuploadlabel" name="" for="thumbnailupload">Upload Thumbnail</label>
+							  
+                            </div>
+							
+                            <div class="custom-file mb-3">
+						    <input type="file" name="videoupload" class="custom-file-input" id="videoupload" />
+							 <label class="custom-file-label" id="videouploadlabel" name="" for="videoupload">Upload Video</label>
+                          
+                            </div>
+							
+                            <div class="custom-file mb-3">
+                              <input type="text" class="form-control" id="videoname" name="videoname" placeholder="Enter Video Name" required="">
+                              
+                            </div>
+                           
+                            <div class="custom-file mb-3">
+                            <textarea class="custom" name="paragraph" id="paragraph" placeholder="Enter Video Description" rows="10" cols="82"></textarea>
+                             
+                            </div>
+							
+                            <div class="custom-file mb-3">
+                              <input type="file" name="pdfupload" class="custom-file-input" id="pdfupload" />
+							 <label class="custom-file-label" id="pdfuploadlabel" name="" for="pdfupload">Upload Pdf</label>
+                              
+                            </div>
+                             <input type="submit" value="SUBMIT" class="login100-form-btn">
+                               
+                        </form>
+					
+						</div> 
+						<div class="col-sm-2">
+					<!-- 2 empty sections in the right -->
+						</div>
+
+					</div>
+
+   </div>  
+
+      
+
+      <!-- /.container-fluid -->
+
+      <!-- Sticky Footer -->
+      <footer class="sticky-footer">
+        <div class="container my-auto">
+          <div class="copyright text-center my-auto">
+            <span>Copyright © UNIK LIFE 2019</span>
+          </div>
+        </div>
+      </footer>
+
+    </div>
+    <!-- /.content-wrapper -->
+
+ 
+  <!-- /#wrapper -->
+
+  <!-- Scroll to Top Button-->
+  <a class="scroll-to-top rounded" href="#page-top">
+    <i class="fas fa-angle-up"></i>
+  </a>
+
+  <!-- Logout Modal-->
+  <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+          <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">×</span>
+          </button>
+        </div>
+        <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+        <div class="modal-footer">
+          <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+          <a class="btn btn-primary" href="login.html">Logout</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  
+ <script> 
+
+
+            $(document).ready(function (e) {
+            
+                        
+             $("#imageupload1").on('submit',(function(e) {
+                 
+                  e.preventDefault();
+              $.ajax({
+                url: "api/videoupload.php",
+               type: "POST",
+               data:  new FormData(this),
+               contentType: false,
+                     cache: false,
+               processData:false,
+               beforeSend : function()
+               {
+                //$("#preview").fadeOut();
+                $("#err").fadeOut();
+               },
+               success: function(data){
+                     console.log(data);
+                     alert(data);
+                    if(data==1){
+                        Swal(
+                          '',
+                          'Details Updated Successfully',
+                          'success'
+                        )
+                                }
+                                else{
+                        Swal(
+                        '',
+                        data,
+                        'error'
+                        )
+                    }              
+                        }});                   
+            
+             }));
+			 
+             // IMAGE THUMBNAIL FILENAME SHOW      
+			 
+            var thumbnailuploadinput = document.getElementById( 'thumbnailupload' );
+            var infoArea = document.getElementById( 'thumbnailuploadlabel' );
+            thumbnailuploadinput.addEventListener( 'change', showFileName );
+            function showFileName( event ) {           
+              // the change event gives us the input it occurred in 
+              var input = event.srcElement;            
+              // the input has an array of files in the `files` property, each one has a name that you can use. We're just using the name here.
+              var fileName = input.files[0].name;
+              console.log(fileName);
+              // use fileName however fits your app best, i.e. add it into a div
+              infoArea.textContent = fileName;
+              }      
+			  
+			  
+			 // VIDEO FILENAME SHOW      
+			 
+            var videouploadinput = document.getElementById( 'videoupload' );
+            var videouploadlabelinfoArea = document.getElementById( 'videouploadlabel');
+            videouploadinput.addEventListener( 'change', videoShowFileName );
+            function videoShowFileName( event ) {           
+              // the change event gives us the input it occurred in 
+              var input = event.srcElement;            
+              // the input has an array of files in the `files` property, each one has a name that you can use. We're just using the name here.
+              var fileName = input.files[0].name;
+              console.log(fileName);
+              // use fileName however fits your app best, i.e. add it into a div
+              videouploadlabelinfoArea.textContent = fileName;
+              }      
+			  
+			  
+			  
+			   // PDF FILENAME SHOW      
+			 
+            var pdfuploadinput = document.getElementById( 'pdfupload' );
+            var pdfuploadlabelinfoArea = document.getElementById( 'pdfuploadlabel');
+            pdfuploadinput.addEventListener( 'change', pdfShowFileName );
+            function pdfShowFileName( event ) {           
+              // the change event gives us the input it occurred in 
+              var input = event.srcElement;            
+              // the input has an array of files in the `files` property, each one has a name that you can use. We're just using the name here.
+              var fileName = input.files[0].name;
+              console.log(fileName);
+              // use fileName however fits your app best, i.e. add it into a div
+              pdfuploadlabelinfoArea.textContent = fileName;
+              }      
+			  
+
+			  
+            });
+			</script>
+
+</body>
+
+</html>
